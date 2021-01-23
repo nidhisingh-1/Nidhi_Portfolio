@@ -1,4 +1,5 @@
 # Nidhi Singh : Portfolio Website
+## Published [HERE](http://nidhisingh.s3-website.ap-south-1.amazonaws.com/)
 ### More updates coming soon!
 
 
