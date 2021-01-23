@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&family=Pacifico&family=Sacramento&display=swap');
+.one {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.HomePage {
+    flex: 1;
+    text-align: center;
+    background: #ee9ca7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Name {
+    color: black;
+    font-family: 'Italianno';
+    font-weight: 900;
+    margin-top: 150pt;
+    font-size: 30pt;
+}
+
+.List {
+    font-size: 30pt;
+    font-family: 'Italianno';
+    font-weight: 600;
+}
+
+a:link {
+    color: rgb(110, 9, 72);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(155, 15, 39);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.AboutSection {
+    text-align: center;
+    flex: 1;
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.profile {
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+}
+
+.right {
+    font-family: 'Italianno';
+    font-weight: 900;
+    margin-top: 20pt;
+    font-size: 25pt;
+}
+
+.aboutme {
+    margin-left: 10pt;
+    margin-right: 10pt;
+    font-family: 'Sacramento';
+    font-size: 19pt;
+    font-weight: 570;
+}
+
+.two {
+    display: flex;
+}
+
+.Education {
+    background: #CAC531;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    flex: 1;
+}
+
+.SkillSection {
+    text-align: center;
+    flex: 1;
+    font-size: 25pt;
+    font-family: 'Italianno';
+    background: #007991;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.skillimg {
+    text-align: center;
+    font-size: 150pt;
+}
+
+.quote {
+    font-size: 20pt;
+    font-family: 'Sacramento';
+    font-weight: 700;
+}
+
+.edu {
+    font-size: 29pt;
+    font-family: 'Italianno';
+}
+
+.quotes {
+    font-size: 20pt;
+    font-family: 'Sacramento';
+    font-weight: 700;
+}
+
+.three {
+    display: flex;
+}
+
+.contactme {
+    text-align: center;
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex: 1;
+}
+
+.resume {
+    font-family: 'Italianno';
+    text-align: center;
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex: 1;
+}
+
+.swingby {
+    font-family: 'Italianno';
+    font-size: 21pt;
+    font-weight: 700;
+}
+
+.email {
+    font-family: 'Sacramento';
+    font-weight: 600;
+}
+
+.hey {
+    font-size: 22pt;
+    font-family: 'Sacramento';
+    font-weight: 700;
+}
+
+.exp{
+    font-family: 'Italianno';
+    font-size: 45pt;
+    font-weight: 700;
+}
+
+.details{
+    font-family: 'Sacramento';
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.thanks{
+    margin-top: 50pt;
+}
+
+.dr{
+    margin-top: 50pt;
+    font-size: 20pt;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    font-size: 15pt;
+    font-family: 'Sacramento';
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
